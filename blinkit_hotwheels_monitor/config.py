@@ -1,0 +1,26 @@
+PRODUCT_URL = "https://blinkit.com/prn/x/prid/774454"
+
+PRODUCT_URLS = [
+    PRODUCT_URL
+]
+
+REFRESH_INTERVALS = [32, 37, 43, 36]
+
+HEADLESS = False
+
+CHECK_TEXT_AVAILABLE = "Add to cart"
+
+CHECK_TEXT_UNAVAILABLE = "Coming soon"
+
+AUTO_CLICK_ADD_TO_CART = False
+
+ENABLE_TELEGRAM = False
+TELEGRAM_BOT_TOKEN = ""
+TELEGRAM_CHAT_ID = ""
+
+ENABLE_DISCORD = False
+DISCORD_WEBHOOK_URL = ""
+
+SCREENSHOT_DIR = "screenshots"
+
+ALARM_FILE = "alarm.mp3"
